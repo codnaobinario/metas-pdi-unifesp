@@ -718,14 +718,14 @@ class PDI_DB
 			$offset = ($per_page * ($page - 1));
 			$query .= " LIMIT {$per_page} OFFSET {$offset}";
 		}
-
-		$select = $wpdb->get_results(
+		
+        $select = $wpdb->get_results(
 			$wpdb->prepare(
 				$query
 			)
 		);
-
-		return $select;
+		
+        return $select;
 	}
 
 	/**

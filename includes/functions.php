@@ -399,6 +399,15 @@ function calc_porcent_meta($vlrInicial, $vlrAtual)
 	}
 }
 
+function calc_valores_indicares_linha($valorInicial, $valorFinal, $valorAtual){
+    $vlr1 = $valorFinal;
+	$vlr2 = $vlr1 / 100;
+	$vlr3 = $valorAtual / $vlr2;
+	$porcentagem = number_format($vlr3 / 100, 2);
+    return $porcentagem;
+
+}
+
 function calcular_porcentagem_acoes_concluidas($acoes)
 {
 	$valor = 0;

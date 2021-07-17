@@ -236,7 +236,7 @@ $metas_por_ano = filtrar_metas_por_ano($indicador->indicadores_anos);
 				</div>
 				<div class="col-md-11 mt-5">
 					<div class="chart-box mb-5">
-						<?php pdi_get_template_front('view/grafico-linha') ?>
+						<?php pdi_get_template_front('view/grafico-linha', $indicador) ?>
 					</div>
 				</div>
 			</div>
