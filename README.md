@@ -1,6 +1,31 @@
-# PDI - Plano de Desenvolvimento Institucional
+# PDI WP - Plugin para PDIs no WordPress (versão para UNIFESP)
 
-## Dados tabela
+Introdução
+
+Este repositório contém o plugin PDI WP criado pelo Núcleo Digital para o PDI da UNIFESP.
+
+O repositório contém:
+
+- Pacote do plugin com seu código
+- Cópia desse manual de instalação
+- Backup da instalação original (“backup migration”)
+- Backup dos dados do plugin PDI WP da instalação original (“backup export pdi wp”)
+
+Instalação
+
+- Instalar um novo ambiente WordPress atualizado
+- Instalar o plugin All-in-One WP Migration no Wordpress
+- Baixar “backup migration” no repositório github e instalar via All-in-One Migration
+- Desativar e ativar o plugin PDI WP para garantir a criação exata das novas tabelas
+- Baixar “backup export pdi wp” e inserir via “Importar / Exportar” no plugin PDI WP
+
+Licença
+
+GNU General Public License v2.0
+https://choosealicense.com/licenses/gpl-2.0/
+
+
+## Dados banco de dados / tabela
 
 ### `pdi_ods`
 CREATE TABLE `pdi_ods` (\
