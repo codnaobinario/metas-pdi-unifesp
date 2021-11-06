@@ -1,4 +1,4 @@
-# PDI WP - Plugin para PDIs no WordPress (versão para UNIFESP)
+# Descrição de plugin PDI WP (PDIs no WordPress - versão para UNIFESP) e informações de licença (GPL 2.0)
 
 Introdução
 
